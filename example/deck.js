@@ -12,7 +12,7 @@ import conclusion from './topics/conclusion.mdx'
 // import 'typeface-space-mono'
 // import 'typeface-spectral'
 
-export { default as theme } from 'gatsby-mdx-theme'
+export { default as theme } from 'opi-mdx-theme'
 export default [
   ...intro,
   ...gatsbyOverview,

@@ -37,7 +37,7 @@ const CenteredHalf = styled(Center)`
 const PurpleBg = styled.div`
   width: 100vw;
   height: 50vh;
-  background-color: ${colors.gatsby};
+  background-color: ${colors.opi};
 `
 
 export default function Main({ children }) {

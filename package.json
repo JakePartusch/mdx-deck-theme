@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-mdx-theme",
-  "version": "0.0.6",
-  "main": "cjs/gatsby-mdx-theme.js",
-  "module": "es/gatsby-mdx-theme.js",
+  "name": "opi-mdx-theme",
+  "version": "0.0.1",
+  "main": "cjs/opi-mdx-theme.js",
+  "module": "es/opi-mdx-theme.js",
   "author": "Dustin Schau <dustin@gatsbyjs.com>",
   "license": "MIT",
   "scripts": {
