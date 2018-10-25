@@ -2,7 +2,7 @@ import theme from 'mdx-deck/themes'
 
 import { code, header } from './fonts'
 import colors from './colors'
-import codeTheme from './gatsby-code-theme'
+import codeTheme from './opi-code-theme'
 
 export * from './layouts'
 
@@ -14,18 +14,18 @@ export default {
   transitionDuration: '0s',
   colors: {
     background: 'white',
-    heading: colors.gatsby
+    heading: colors.opi
   },
   blockquote: {
-    color: colors.gatsby,
+    color: colors.opi,
     paddingLeft: '2rem',
-    borderLeft: `5px solid ${colors.gatsby}`
+    borderLeft: `5px solid ${colors.opi}`
   },
   paragraph: {
-    color: colors.gatsby
+    color: colors.opi
   },
   li: {
-    color: colors.gatsby
+    color: colors.opi
   },
   prism: {
     style: codeTheme
