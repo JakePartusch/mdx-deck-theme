@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "mdx-deck build deck.js --webpack webpack.config.js",
+    "build": "mdx-deck build deck.js --no-html --webpack webpack.config.js",
     "postbuild": "npm run build:pdf",
     "build:pdf": "mdx-deck pdf deck.js",
     "start": "mdx-deck deck.js --webpack webpack.config.js"
