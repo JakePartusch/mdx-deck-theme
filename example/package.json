@@ -1,5 +1,5 @@
 {
-  "name": "@gatsby/webinar-presentation",
+  "name": "@jakepartusch/chatbot-presentation",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "mdx-deck-code-surfer": "^0.5.3",
-    "opi-mdx-theme": "^0.0.1",
+    "@jakepartusch/opi-mdx-theme": "^0.0.2",
     "raw-loader": "^0.5.1",
     "typeface-space-mono": "^0.0.54",
     "typeface-spectral": "^0.0.54"
