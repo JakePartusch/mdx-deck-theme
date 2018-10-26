@@ -1,9 +1,12 @@
 {
-  "name": "opi-mdx-theme",
-  "version": "0.0.1",
+  "name": "@jakepartusch/opi-mdx-theme",
+  "version": "0.0.2",
   "main": "cjs/opi-mdx-theme.js",
   "module": "es/opi-mdx-theme.js",
-  "author": "Dustin Schau <dustin@gatsbyjs.com>",
+  "author": "Jake Partusch",
+  "contributors": [
+    "Dustin Schau <dustin@gatsbyjs.com>"
+  ],
   "license": "MIT",
   "scripts": {
     "precommit": "pretty-quick --staged",
