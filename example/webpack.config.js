@@ -6,7 +6,7 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.(woff(2)?|ttf|eot|svg)/,
+        test: /\.(woff(2)?|ttf|eot|svg|jpf)/,
         use: ['file-loader']
       }
     ]
