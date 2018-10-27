@@ -1,14 +1,8 @@
 import intro from './topics/intro.mdx'
-import chatbotOverview from './topics/chatbot-overview.mdx'
-import chatbotDetails from './topics/chatbot-details.mdx'
+import overview from './topics/overview.mdx'
+import details from './topics/details.mdx'
 import demo from './topics/demo.mdx'
 import conclusion from './topics/conclusion.mdx'
 
 export { default as theme } from '@jakepartusch/opi-mdx-theme'
-export default [
-  ...intro,
-  ...chatbotOverview,
-  ...chatbotDetails,
-  ...demo,
-  ...conclusion
-]
+export default [...intro, ...overview, ...details, ...demo, ...conclusion]
