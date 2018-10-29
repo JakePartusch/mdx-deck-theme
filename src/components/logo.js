@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Svg = styled.svg`
-  min-height: 50px;
-  min-width: 200px;
   position: absolute;
-  top: 1vw;
-  left: 73vw;
+  top: 0;
+  right: 0;
+  margin: 0.5em;
+  height: 50px;
 `
 
 export const Logo = ({ inverted, ...rest }) => {

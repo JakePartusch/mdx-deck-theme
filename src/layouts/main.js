@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import { Center } from '../components'
+import { Logo } from '../components/logo'
 import colors from '../colors'
 
 const Container = styled.div`
@@ -29,21 +30,25 @@ const Container = styled.div`
 
 const CenteredHalf = styled(Center)`
   flex-direction: column;
-  height: 50vh;
+  height: 75vh;
 
   padding-left: 15vw;
 `
 
 const PurpleBg = styled.div`
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
+  position: absolute;
+  top: 25vh;
   background-color: ${colors.opi};
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 `
 
 export default function Main({ children }) {
   return (
     <Container>
       <CenteredHalf>{children}</CenteredHalf>
+      <Logo />
       <PurpleBg />
     </Container>
   )

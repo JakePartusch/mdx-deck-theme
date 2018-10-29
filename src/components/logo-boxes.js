@@ -5,10 +5,10 @@ import { Boxes } from './boxes'
 
 export function LogoBoxes({ inverted }) {
   return (
-    <div>
+    <React.Fragment>
       <Boxes inverted={inverted} />
       <Logo inverted={inverted} />
-    </div>
+    </React.Fragment>
   )
 }
 
