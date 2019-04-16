@@ -1,6 +1,6 @@
 {
   "name": "@jakepartusch/opi-mdx-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "cjs/opi-mdx-theme.js",
   "module": "es/opi-mdx-theme.js",
   "author": "Jake Partusch",
@@ -36,7 +36,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.0"
   },
   "peerDependencies": {
-    "mdx-deck": "1.x.x",
+    "mdx-deck": "2.x.x",
     "prop-types": "15.x.x",
     "react": "16.x.x",
     "react-syntax-highlighter": "8.x.x",

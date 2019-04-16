@@ -22,6 +22,11 @@ const Container = styled(Center)`
     text-align: left;
   }
 
+  blockquote {
+    max-width: 800px;
+    text-align: left;
+  }
+
   ${props =>
     props.inverted &&
     css`
@@ -53,7 +58,7 @@ export default function Section({ children, inverted, ...rest }) {
       <LogoContainer>
         <LogoBoxes inverted={inverted} />
       </LogoContainer>
-      {children}
+      <div>{children}</div>
     </Container>
   )
 }

@@ -1,5 +1,3 @@
-import theme from 'mdx-deck/themes'
-
 import { code, header } from './fonts'
 import colors from './colors'
 import codeTheme from './opi-code-theme'
@@ -7,7 +5,6 @@ import codeTheme from './opi-code-theme'
 export * from './layouts'
 
 export default {
-  ...theme,
   font: header.join(','),
   monospace: code.join(','),
   transitionTimingFunction: 'linear',

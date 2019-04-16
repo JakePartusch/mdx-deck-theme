@@ -33,7 +33,7 @@ const CenteredHalf = styled(Center)`
   flex-direction: column;
   height: 75vh;
 
-  padding-left: 15vw;
+  padding-left: 10vw;
 `
 
 const PurpleBg = styled.div`
@@ -48,7 +48,9 @@ const PurpleBg = styled.div`
 export default function Main({ children }) {
   return (
     <Container>
-      <CenteredHalf>{children}</CenteredHalf>
+      <CenteredHalf>
+        <div>{children}</div>
+      </CenteredHalf>
       <Logo />
       <PurpleBg />
     </Container>
