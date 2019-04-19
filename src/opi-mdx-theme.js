@@ -1,30 +1,36 @@
-import { code, header } from './fonts'
+import { fonts } from './fonts'
 import colors from './colors'
-import codeTheme from './opi-code-theme'
 
 export * from './layouts'
 
 export default {
-  font: header.join(','),
-  monospace: code.join(','),
+  font: fonts.join(','),
   transitionTimingFunction: 'linear',
   transitionDuration: '0s',
   colors: {
     background: 'white',
-    heading: colors.opi
+    heading: colors.opi,
+    text: colors.gray
+  },
+  heading: {
+    fontWeight: 400
+  },
+  h1: {
+    color: colors.opi
+  },
+  h2: {
+    color: colors.opi
   },
   blockquote: {
-    color: colors.opi,
+    maxWidth: '800px',
     paddingLeft: '2rem',
-    borderLeft: `5px solid ${colors.opi}`
+    borderLeft: `5px solid ${colors.opi}`,
+    fontStyle: 'italic'
   },
   paragraph: {
     color: colors.opi
   },
   li: {
-    color: colors.opi
-  },
-  prism: {
-    style: codeTheme
+    color: colors.gray
   }
 }

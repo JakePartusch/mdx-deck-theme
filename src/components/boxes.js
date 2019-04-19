@@ -40,7 +40,7 @@ const Center = styled.div`
 `
 
 export function Boxes({ children, inverted }) {
-  let layers = [colors.code.bg, colors.gray, colors.opi]
+  let layers = [colors.tan, colors.gray, colors.opi]
 
   if (inverted) {
     layers = layers.reverse()

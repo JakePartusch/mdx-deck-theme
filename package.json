@@ -1,6 +1,6 @@
 {
   "name": "@jakepartusch/opi-mdx-theme",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "main": "cjs/opi-mdx-theme.js",
   "module": "es/opi-mdx-theme.js",
   "author": "Jake Partusch",
