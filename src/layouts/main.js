@@ -19,12 +19,9 @@ const Container = styled.div`
 
   h1 {
     text-align: left;
-    color: ${colors.opi}
   }
 
   h2 {
-    color: ${colors.gray}
-    font-weight: 400;
     text-align: left;
   }
 `

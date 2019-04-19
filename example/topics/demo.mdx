@@ -1,23 +1,10 @@
-import { FullScreenCode, Main, Section, SectionInverted } from '@jakepartusch/opi-mdx-theme'
-import { Image } from 'mdx-deck'
-import { CodeSurfer } from "mdx-deck-code-surfer"
-import Counter from './counter.js';
+import { Section } from '@jakepartusch/opi-mdx-theme'
+import Counter from './counter.js'
 
-<CodeSurfer
-  title="Let's look at a React Counter"
-  code={require("!raw-loader!./counter.js")}
-  lang="javascript"
-  showNumbers={false}
-  dark={false}
-  steps={[
-    { lines: [3] },
-    { range: [4, 6] },
-    { range: [14, 23] },
-    { range: [8, 12] }
-  ]}
-/>
----
-export default Section
+<Section>
 
- # Render it!
+## Render a component!
+
 <Counter />
+
+</Section>
