@@ -33,13 +33,18 @@ const CenteredHalf = styled(Center)`
   padding-left: 10vw;
 `
 
-const PurpleBg = styled.div`
+const RedBg = styled.div`
   width: 100vw;
   height: 75vh;
   position: absolute;
   top: 25vh;
   background-color: ${colors.opi};
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  @media (max-width: 600px) {
+    height: 40vh;
+    top: 60vh;
+    clip-path: none;
+  }
 `
 
 export default function Main({ children }) {
@@ -49,7 +54,7 @@ export default function Main({ children }) {
         <div>{children}</div>
       </CenteredHalf>
       <Logo />
-      <PurpleBg />
+      <RedBg />
     </Container>
   )
 }

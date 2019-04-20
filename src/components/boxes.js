@@ -13,6 +13,10 @@ const Layers = styled.div`
   height: 25vh;
   width: 25vw;
   position: relative;
+  @media (max-width: 600px) {
+    height: 100px;
+    width: 100px;
+  }
 `
 
 const Layer = styled.div`

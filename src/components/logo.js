@@ -7,6 +7,9 @@ const Svg = styled.svg`
   right: 0;
   margin: 0.5em;
   height: 50px;
+  @media (max-width: 600px) {
+    height: 40px;
+  }
 `
 
 export const Logo = ({ inverted, ...rest }) => {
